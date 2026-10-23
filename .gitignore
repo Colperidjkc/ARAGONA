@@ -1,0 +1,25 @@
+# Directories
+cache
+coverage
+out
+artifacts
+logs
+
+# Files
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+lcov.info
+
+# Testing
+test/**/*.tree
+lcov.info
+lcov.info.*
+report
+
+# Broadcasts
+!broadcast
+broadcast/*
+broadcast/*/31337/
